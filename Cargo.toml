@@ -1,0 +1,15 @@
+[package]
+name = "dhcpdiscov"
+version = "0.1.0"
+authors = ["yskszk63 <yskszk63@gmail.com>"]
+edition = "2018"
+default-run = "dhcpdiscov"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+bitflags = "1.2.1"
+bytes = "1.0.1"
+pnet = "0.28.0"
+rand = "0.8.4"
